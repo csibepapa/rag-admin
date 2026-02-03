@@ -1,4 +1,4 @@
-# Python bytecode
+# Python
 __pycache__/
 *.py[cod]
 *$py.class
@@ -6,23 +6,15 @@ __pycache__/
 
 # Distribution / packaging
 *.egg-info/
-dist/
-build/
 
-# Database files
+# SQLite databases
 *.db
 *.sqlite3
+*.db-shm
+*.db-wal
 
 # ChromaDB data
-data/
+data/chroma/
 
-# Model cache and store
+# Model cache
 model_store/
-
-# Virtual environments
-venv/
-env/
-ENV/
-
-# pytest
-.pytest_cache/
