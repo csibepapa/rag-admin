@@ -1,0 +1,28 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribution / packaging
+*.egg-info/
+dist/
+build/
+
+# Database files
+*.db
+*.sqlite3
+
+# ChromaDB data
+data/
+
+# Model cache and store
+model_store/
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# pytest
+.pytest_cache/
